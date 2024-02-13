@@ -25,12 +25,13 @@ fun main(){
 
 
 // condition and break !!
-
-
-    for ((r, x) in cars.withIndex()) { println(r);
-        if(x=="BMW"){ println(x); break
- }
+for ((r, x) in cars.withIndex()) { println(r);
+    if(x=="BMW"){ 
+        println(x); 
+        break
 }
- for ((e,o) in cars.withIndex()){ println("the index of $o is $e")}
+}
+
+for ((e,o) in cars.withIndex()){ println("the index of $o is $e")}
 
 }
