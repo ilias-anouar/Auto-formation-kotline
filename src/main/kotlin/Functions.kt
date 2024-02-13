@@ -27,13 +27,19 @@ fun greeting():Unit{
  * * taking the name as a parameter.
  */
 fun sayHelloTo(msg:String,name:String)=println("$msg $name")
+
+/*
+* Function Check if the message is good it will print it else it will say invalid
+*/
+ fun checkMessage(msg:String):String{
+    return if (msg.indexOf("test")>-1){
+        msg
+    } else {
+        "invalid"
+    }
+ }
+
 fun main(){
     println("Hi my name is Ilias I'm learning kotlin")
-    //calling function sayHello().
-    println(sayHello())
-    //calling function greeting().
-    greeting()
-    //calling function sayHelloTo(msg,name).
-    sayHelloTo(msg = "Love u",name = "bassema")
-    sayHelloTo(msg = "Hello", name = "ilias")
+    println(checkMessage(msg = "hey test is here"))
 }
