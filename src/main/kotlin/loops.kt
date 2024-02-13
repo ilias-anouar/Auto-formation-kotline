@@ -32,5 +32,5 @@ fun main(){
  }
 }
  for ((e,o) in cars.withIndex()){ println("the index of $o is $e")}
-    
+
 }
