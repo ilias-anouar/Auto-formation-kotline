@@ -26,7 +26,7 @@ fun greeting():Unit{
  * * defining a function => sayHelloTo().
  * * taking the name as a parameter.
  */
-fun sayHelloTo(msg:String,name: String)=println("$msg $name")
+fun sayHelloTo(msg:String,name:String)=println("$msg $name")
 fun main(){
     println("Hi my name is Ilias I'm learning kotlin")
     //calling function sayHello().
