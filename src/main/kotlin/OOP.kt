@@ -4,21 +4,21 @@ class Car(var type:String) {
     private var mode = ""
     // brand
     fun getBrand(): String {
-        return brand
+        return this.brand
     }
     fun setBrand(value:String){
         brand=value
     }
     // color
     fun getColor():String{
-        return color
+        return this.color
     }
     fun setColor(value:String){
         color = value
     }
     // mode
     fun getMode():String{
-        return  mode
+        return this.mode
     }
     fun setMode(value:String){
         mode=value
