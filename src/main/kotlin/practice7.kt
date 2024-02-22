@@ -5,7 +5,7 @@ fun main() {
     println("Item B is sold at ${auctionPrice(null, 10000)}.")
 }
 
-class Bid(val amount: Int, val bidder: String)
+class Bid(val amount: Int, val bidder: String) 
 
 fun auctionPrice(bid: Bid?, minimumPrice: Int): Int {
     return bid?.amount ?: minimumPrice
