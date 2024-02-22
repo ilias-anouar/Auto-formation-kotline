@@ -25,9 +25,9 @@ fun main(){
 
 
 // condition and break !!
-for ((r, x) in cars.withIndex()) { println(r);
+for ((r, x) in cars.withIndex()) { println(r)
     if(x=="BMW"){ 
-        println(x); 
+        println(x)
         break
 }
 }
