@@ -11,5 +11,8 @@ class Song(val title:String,val artist:String,val yearPublished:Int,val playCoun
 fun main(){
     val brunoSong = Song("We Don't Talk About Bruno", "Encanto Cast", 2022, 100_000)
     brunoSong.printDescription()
-    println(brunoSong.isPopular)
+    println("this song is : " + if(brunoSong.isPopular) {"Popular"} else {
+        "Not Popular"
+    }
+    )
 }
