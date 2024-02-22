@@ -194,3 +194,4 @@ fun main() {
     smartDevice = SmartLightDevice("Google Light", "Utility")
     smartDevice.turnOn()
 }
+
