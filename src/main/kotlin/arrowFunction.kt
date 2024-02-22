@@ -9,11 +9,9 @@ val notTest: ()-> Unit={
 
 
 fun isItTest(isTest: Boolean) :() -> Unit {
-    if (isTest) {
-        return test
-    } else {
-        return notTest
-    }
+    return if (isTest) {
+        test
+    } else notTest
 }
 
 
